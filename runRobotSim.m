@@ -68,6 +68,8 @@ for j=1
             T            = 500;
             
         case 'GD'
+            alpha        = 0;
+            beta         = 0;
             % Choose T based on the ID T
             if isfile(sprintf('%s-%s-%s-r-%.3f-n-%d.mat', shapeName,...,
                     init_type,'ID', robotRadius, numRobot))
